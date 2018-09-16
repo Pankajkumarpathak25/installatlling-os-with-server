@@ -10,14 +10,14 @@ senerio :
 # 3=> boot with pendrive and 
       after getting screen crtl+e
       in second line 
-      wite
+      write
       => linux repo=ftp://ip/pub/rhel75
       => ctrl+X
       installation started 
       select minimal installation 
       after installation use startx to get gui
       
-      #how to set default gui
+# how to set default gui
       
       yum grouplist
       =>  vim /etc/yum.repos.d/adhoc.repo (repo setup)
