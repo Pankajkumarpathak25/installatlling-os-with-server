@@ -18,7 +18,14 @@ senerio :
       after installation use startx to get gui
       
       #how to set default gui
-      => systemctl set-default graphical.target
-      => systemctl isolate default.target
       
+      yum grouplist
+      =>  vim /etc/yum.repos.d/adhoc.repo (repo setup)
+      =>  yum grouplist
+      =>  yum groupinstall "Server with GUI"
+      =>  systemctl set-default graphical.target
+      =>  systemctl isolate default.target
 
+     #happy ending:
+      
+         
